@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Sample</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <style>
+        #gazou {text-align:center;}
+        #waku{border : solid 6px #333 ;} 
+    </style>
+</head>
+  <body>
+      <p><h1 align=center>作成予定のアプリの説明</h1></p>
+      <h4> 主に、一人暮らしをしようとしている新入生のために、実際に一人暮らしをしている在学生からの情報を集めたアプリを作ろうと思います。</h4>
+      <div id="gazou">
+      <img src="at home.png" alt="at home 画像の例" width="1000" >
+      </div>
+      <h4>上の画像のモデルとなるアプリのat homeの画像です。
+          これに在学生からの情報を加えたアプリを作ろうと思います。
+          また、下のようなフォームを（アプリとは別途で）作って情報を集めたいと思います。
+      </h4>
+      <form id="waku" class="form-horizontal">
+  <div class="form-group">
+　良い点
+    <div class="col-sm-10">
+      <input type="text" class="form-control" placeholder="例：アクセスが良い、近くに安いスーパーがある">
+    </div>
+  </div>
+  <div class="form-group">
+　良くない点
+    <div class="col-sm-10">
+      <input type="text" class="form-control" placeholder="例：大家さんが意地悪、近所がうるさい">
+    </div>
+  </div>
+  <div class="form-group">
+　位置情報
+    <div class="col-sm-10">
+      <input type="text" class="form-control" placeholder="住所">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-default">送信</button>
+    </div>
+  </div>
+</form>
+  </body>
+</html>
